@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <script src="js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Домашнняя работа QA">
+    <title>QA | HOMEWORK | HTML | CSS | BOOTSTRAP</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header data-bs-theme="dark">
+        <div class="collapse text-bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">Домашнее задание</h4>
+                        <p class="text-body-secondary">
+                            Найти ошибки в HTML или CSS, которые приводят к тому, что смысл текста не
+                            соответствует его внешнему виду ☛
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Страницы</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="task1.html" class="text-white">Задание 1</a></li>
+                            <li><a href="task2.html" class="text-white">Задание 2</a></li>
+                            <li><a href="task3.html" class="text-white">Задание 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img class="icon m-1" src="img/drawer-qa-svgrepo-com.svg" alt="qa icon"
+                        style="width: 4%; height: 4%;">
+                    <strong> HOMEWORK | HTML | CSS | BOOTSTRAP</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">ДОМАШНЯЯ РАБОТА</h1>
+                    <p class="lead text-body-secondary"> Найти ошибки в HTML или CSS, которые приводят к тому, что смысл
+                        текста не
+                        соответствует его внешнему виду ▼</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="img/1.png" width="100%"
+                                height="225"></img>
+                            <div class="card-body">
+                                <p class="card-text">Исправлены теги <strong>&lt;h&gt;</strong>,
+                                    внесены корректировки в вывод списка, исправлены стили шрифта: полужирный и курсив.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="before/task1_hw.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">До</button>
+                                        </a>
+                                        <a href="task1.html">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">После</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="img/2.png" width="100%"
+                                height="225"></img>
+                            <div class="card-body">
+                                <p class="card-text"> Исправлено цветовое соответствие текста, размеры шрифта, скорректированы полужирный и курсивный стили текста.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="before/task2_hw.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">До</button>
+                                        </a>
+                                        <a href="task2.html">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">После</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="img/3.png" width="100%"
+                                height="225"></img>
+                            <div class="card-body">
+                                <p class="card-text">Внесены корректировки в CSS, в котором цвета не соответствовали классам и/или атрибуты были неверными.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="before/task3_hw.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">До</button>
+                                        </a>
+                                        <a href="task3.html">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">После</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Наверх</a>
+            </p>
+            <p class="mb-1">Домашнее задание выполнено с помощью &copy; Bootstrap</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
